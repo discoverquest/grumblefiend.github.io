@@ -131,42 +131,5 @@
   scroll-behavior: smooth;
   }
 </style>
-<!-- This function initializes variables and provides two sub-functions. The first sub-function
-creates an element to test for transition capabilities, and returns the name of the transition
-property. The second sub-function animates an element from its current height to auto height
-and back to 0 height using CSS transitions. -->
-<script>var items = document.querySelectorAll('#ij7d');
-  for (var i = 0, len = items.length; i < len; i++) {
-    (function(){
-      var t,e=0,n='gjs-collapse',r='max-height',o='ease-in-out',i=.25,a=function(){
-        var t,e=document.createElement('void'),n={
-          transition:'transitionend',OTransition:'oTransitionEnd',MozTransition:'transitionend',WebkitTransition:'webkitTransitionEnd'};
-        for(t in n)if(void 0!==e.style[t])return n[t]}
-      (),s=function(t){
-        e=1;
-        var n=function(t){
-          var e=window.getComputedStyle(t),n=e.display,o=parseInt(e[r]);
-          if('none'!==n&&'0'!==o)return t.offsetHeight;
-          t.style.height='auto',t.style.display='block',t.style.position='absolute',t.style.visibility='hidden';
-          var i=t.offsetHeight;
-          return t.style.height='',t.style.display='',t.style.position='',t.style.visibility='',i}
-        (t),a=t.style;
-        a.display='block',a.transition=r+' '+i+'s '+o,a.overflowY='hidden',''==a[r]&&(a[r]=0),0==parseInt(a[r])?(a[r]='0',setTimeout(function(){
-          a[r]=n+'px'}
-                                                                                                                                     ,10)):a[r]='0'};
-      n in this||this.addEventListener('click',function(n){
-        if(n.preventDefault(),!e){
-          var o=this.closest('.gpd-navbar').querySelector(".gpd-navbar__items");
-          s(o),t||(o.addEventListener(a,function(){
-            e=0;
-            var t=o.style;
-            0==parseInt(t[r])&&(t.display='',t[r]='')}
-                                     ),t=1)}
-      }
-                                      ),this[n]=1
-    }
-     .bind(items[i]))();
-  }
-</script>
-  </body>
+</body>
 </html>
