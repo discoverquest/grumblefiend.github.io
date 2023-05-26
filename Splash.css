@@ -40,6 +40,8 @@ body {
 #iyg5{
   flex:0 1 auto;
   padding:5px 5px 5px 0;
+  position:relative;
+  flex-basis:81.6auto;
 }
 #iku1{
   flex:0 1 auto;
@@ -61,7 +63,7 @@ body {
 }
 #i0sok{
   min-height:100vh;
-  background-image:linear-gradient(to right, #fcc1ff 0%, #3e767a 100%);
+  background-image:linear-gradient(to right, #50177c 0%, #0098a3 100%);
   background-repeat:repeat;
   background-position:left top;
   background-attachment:scroll;
@@ -82,7 +84,8 @@ body {
 }
 #i98ol{
   color:black;
-  height:80px;
+  height:169px;
+  width:154px;
 }
 #ijj8x{
   flex:0 1 auto;
@@ -125,21 +128,18 @@ body {
   color:#ffffff;
   margin:0 0 56px 0;
 }
-#iksel{
-  text-transform:uppercase;
-  font-size:small;
-  border:0 solid #ffffff;
-  color:#ffffff;
-  font-weight:700;
-}
 #i83me{
   font-family:Open Sans, sans-serif;
   padding:10px 10px 10px 0;
 }
 #iirfv{
   padding:100px 0 100px 0;
-  background-color:#F5F5F5;
   font-family:Open Sans, sans-serif;
+  background-image:radial-gradient(circle at right, #00cac5 0%, #8d0092 100%);
+  background-repeat:repeat;
+  background-position:left top;
+  background-attachment:scroll;
+  background-size:auto;
 }
 #igfoc{
   padding:10px 10px 10px 0;
@@ -152,23 +152,9 @@ body {
   align-self:center;
   text-align:center;
 }
-#idh7x{
-  color:black;
-}
 #i8rbs{
   margin:0 80px 0 0;
   align-self:center;
-}
-#idu0c{
-  border:2px solid #000000;
-  color:#ffffff;
-  background-color:#000000;
-  padding:10px 25px 10px 25px;
-  text-decoration:none;
-}
-#inb24{
-  padding:100px 0 100px 0;
-  background-color:#000000;
 }
 #ivd83{
   font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
@@ -178,32 +164,6 @@ body {
 #iedea{
   text-align:center;
   font-family:Open Sans, sans-serif;
-}
-#iff01{
-  text-align:center;
-  color:#ffffff;
-  font-family:Open Sans, sans-serif;
-}
-#iisxy{
-  height:3px;
-  margin:10px 10px 10px 10px;
-}
-#imfpk{
-  height:3px;
-  margin:10px 10px 10px 10px;
-}
-#itxhg{
-  height:3px;
-  margin:10px 10px 10px 10px;
-}
-#iw5c7{
-  height:3px;
-  margin:10px 10px 10px 10px;
-}
-#idvel{
-  text-decoration:underline;
-  font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
-  color:#ffffff;
 }
 #ir4gt{
   color:#ffffff;
@@ -219,7 +179,11 @@ body {
   color:rgba(255,255,255,0.28);
 }
 #ict62{
-  background-color:#F5F5F5;
+  background-image:linear-gradient(#000000,#000000);
+  background-repeat:repeat;
+  background-position:left top;
+  background-attachment:scroll;
+  background-size:auto;
 }
 #i2l2b{
   text-align:center;
@@ -238,9 +202,6 @@ body {
   width:100%;
   height:700px;
 }
-#iksel:hover{
-  text-decoration:underline;
-}
 #ipji3{
   color:#ffffff;
   background-color:#000000;
@@ -255,22 +216,25 @@ body {
   min-height:50px;
   min-width:50px;
 }
-#irzsk{
-  width:32px;
-  height:32px;
-  color:#ffffff;
-}
-#im6ky{
-  display:inline-block;
-  min-width:50px;
-}
 #ivgah{
   display:inline-block;
   min-width:50px;
 }
-#icvr8{
-  width:32px;
-  height:32px;
+#ii9px{
+  color:black;
+  width:37px;
+  height:37px;
+}
+#izgf6{
+  color:black;
+}
+#i07np{
+  position:relative;
+  top:auto;
+  right:auto;
+  bottom:auto;
+  left:auto;
+  z-index:auto;
 }
 @media (max-width: 768px){
   .gpd-navbar__menu{
