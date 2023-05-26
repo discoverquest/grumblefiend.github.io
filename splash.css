@@ -20,6 +20,7 @@ body {
 }
 .gpd-navbar__item{
   flex:0 1 auto;
+  justify-content: center;
 }
 .gpd-navbar__item-link{
   color:inherit;
@@ -53,10 +54,12 @@ body {
 }
 #iqygz{
   flex:0 1 auto;
+  justify-content: center;
   color:#000000;
   font-family:Open Sans, sans-serif;
 }
 #icx92{
+  justify-content: center;
   align-items:center;
   min-height:auto;
   color:#ffffff;
