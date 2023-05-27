@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  margin: 0;
+  margin: 16px;
   width: 100%;
   font-family:'Roboto', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -102,6 +102,7 @@ body {
 #ijj8x{
   flex:0 1 auto;
   color:#000000;
+  padding-right: 10px;
 }
 #icj6r{
   align-items:center;
@@ -242,7 +243,6 @@ body {
   color:black;
   width:37px;
   height:37px;
-  padding-right: 10px;
 }
 #izgf6{
   color:black;
