@@ -4,6 +4,7 @@
 body {
   margin: 0;
   width: 100%;
+  font-family:'Roboto', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .header{
   margin:0;
@@ -42,7 +43,7 @@ body {
   justify-content:space-between;
   align-items:center;
   min-height:auto;
-  font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
+  font-family:'Roboto', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   padding:10px 10px 10px 0;
 }
 #iyg5{
@@ -63,7 +64,7 @@ body {
   flex:0 1 auto;
   justify-content: center;
   color:#000000;
-  font-family:Open Sans, sans-serif;
+  font-family:'Roboto', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 #icx92{
   justify-content: center;
@@ -94,8 +95,8 @@ body {
 }
 #i98ol{
   color:black;
-  height:169px;
-  width:154px;
+  height:338px;
+  width:308px;
 }
 #ijj8x{
   flex:0 1 auto;
@@ -117,6 +118,11 @@ body {
 }
 #itpgo{
   color:#ffffff;
+  font-size: 18px;
+}
+#i2s7k {
+  color: #ffffff;
+  font-size: 18px;
 }
 #i0byf{
   padding:5px 15px 5px 15px;
@@ -126,6 +132,7 @@ body {
 }
 #i2zhr{
   color:#ffffff;
+  font-size: 18px;
 }
 #it1ag{
   margin:20vh 0 0 0;
@@ -167,7 +174,7 @@ body {
   align-self:center;
 }
 #ivd83{
-  font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
+  font-family:'Roboto', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   padding:100px 0 0 0;
   background-color:#F5F5F5;
 }
@@ -185,7 +192,7 @@ body {
   background-color:#000000;
 }
 #if1fe{
-  font-family:Arial, Helvetica, sans-serif;
+  font-family:'Roboto', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color:rgba(255,255,255,0.28);
 }
 #ict62{
@@ -205,7 +212,7 @@ body {
   align-items:center;
 }
 #i1oil{
-  font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
+  font-family:'Roboto', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   padding:25px 0 0 0;
 }
 #iqlr1p{
@@ -217,7 +224,7 @@ body {
   background-color:#000000;
   font-size:large;
   text-decoration:none;
-  font-family:Open Sans, sans-serif;
+  font-family:'Roboto', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   padding:10px 25px 10px 25px;
 }
 #ivpoh{
